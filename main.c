@@ -26,6 +26,6 @@ int main()
 
 
     retirarItens(l1);
-
+ 
 }
 
