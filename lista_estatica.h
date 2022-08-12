@@ -1,7 +1,7 @@
 #ifndef LISTA_ESTATTICA_H
 #define LISTA_ESTATTICA_H
 
-#define TAM_MAX 10
+#define TAM_MAX 100000
 
 typedef int TipoItem;
 
@@ -14,6 +14,11 @@ typedef struct {
 //Cria uma lista vazia
 Lista* cria_lista_vazia();
 
+
+//Retira o item da lista
+Lista* retiraLista(Lista* l, TipoItem x);
+
+
 //Testa se uma lista e vazia
 int vazia(Lista * l);
 
@@ -22,6 +27,7 @@ void insere(Lista* l, TipoItem x);
 
 //Retira o item da lista
 void retira(Lista* l, TipoItem x);
+
 
 //Imprime os itens da lista
 void imprime(Lista* l);
