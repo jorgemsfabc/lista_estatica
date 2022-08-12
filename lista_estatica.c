@@ -62,14 +62,13 @@ Lista* retiraLista(Lista* l, TipoItem x){
                 n_index++;
            }
          }    
-          if(nl->pos_livre>0)
-            nl->pos_livre--;
+        nl->pos_livre = n_index;      
          
-          free(l);
+        free(l);
 
-          l = nl;
+        l = nl;
 
-          return l;
+        return l;
     }
 }
 

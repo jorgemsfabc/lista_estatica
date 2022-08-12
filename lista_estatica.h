@@ -1,7 +1,7 @@
 #ifndef LISTA_ESTATTICA_H
 #define LISTA_ESTATTICA_H
 
-#define TAM_MAX 100000
+#define TAM_MAX 10
 
 typedef int TipoItem;
 
