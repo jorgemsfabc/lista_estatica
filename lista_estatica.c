@@ -61,14 +61,17 @@ Lista* retiraLista(Lista* l, TipoItem x){
                 nl->pos_livre = l->pos_livre;
                 n_index++;
            }
+           if(n_index==0)
+             printf("Elemento não encontrado");
          }    
-        nl->pos_livre = n_index;      
+
+         nl->pos_livre = n_index;      
          
-        free(l);
+         free(l);
 
-        l = nl;
+         l = nl;
 
-        return l;
+         return l;
     }
 }
 
