@@ -14,10 +14,8 @@ typedef struct {
 //Cria uma lista vazia
 Lista* cria_lista_vazia();
 
-
 //Retira o item da lista
 Lista* retiraLista(Lista* l, TipoItem x);
-
 
 //Testa se uma lista e vazia
 int vazia(Lista * l);

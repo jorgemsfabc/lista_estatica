@@ -49,7 +49,7 @@ Lista* retiraLista(Lista* l, TipoItem x){
         printf("Lista vazia: sem elementos para retirar");
     else{
 
-          Lista * nl = (Lista*) malloc(sizeof(Lista));
+        Lista * nl = (Lista*) malloc(sizeof(Lista));
         
          int n_index =  0;
 
